@@ -20,14 +20,14 @@ Add **hubot-team** to your `external-scripts.json`:
 ["hubot-team"]
 ```
 
-Run `npm install hubot-team`
+Run `npm install hubot-team`.
 
 
 ## Configuration
 
-Some commands require an admin role to be run (i.e. `clear` team list). The
-admins can be specified through the `HUBOT_TEAM_ADMIN` environment variable,
-as a comma separated list of usernames.
+Some commands require an admin role to be run (e.g. `clear` team list). The
+admins can be specified through the `HUBOT_TEAM_ADMIN` environment variable
+as a comma-separated list of usernames.
 
 
 ## Commands
@@ -43,7 +43,7 @@ as a comma separated list of usernames.
     hubot (<team_name>) team (empty|clear)      # clear team list
     hubot (<team_name>) team count              # list the current size of the team
 
-All commands that have the `<team_name>` in parantheses can ommit it. For example:
+The `<team_name>` argument can be omitted from all commands where it appears in parentheses. For example:
 
     hubot team +1
 
@@ -54,7 +54,7 @@ included in a team that does not show up when running `hubot list teams`.
 
 ## Contributing
 
-If you are interested to make `hubot-team` better, fork this repository, check
+If you are interested in making `hubot-team` better, fork this repository, check
 the list of [open issues](https://github.com/hubot-scripts/hubot-team/issues?state=open)
 (old issues list can be found [here](https://github.com/mihai/hubot-team/issues?state=open))
 for some suggestions to get started, and submit a pull request.
